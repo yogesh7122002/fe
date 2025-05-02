@@ -1,0 +1,78 @@
+.verification-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.verification-card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+.verification-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1.5rem;
+    color: #4CAF50;
+}
+
+.verification-icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+.verification-card h1 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.verification-message {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.verification-actions {
+    margin-top: 1.5rem;
+}
+
+.login-link {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.login-link:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 480px) {
+    .verification-card {
+        padding: 1.5rem;
+    }
+
+    .verification-card h1 {
+        font-size: 1.5rem;
+    }
+
+    .verification-icon {
+        width: 60px;
+        height: 60px;
+    }
+} 
